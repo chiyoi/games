@@ -3,5 +3,12 @@
     "Cross-Origin-Opener-Policy": "same-origin",
     "Cross-Origin-Embedder-Policy": "require-corp",
     "Cross-Origin-Resource-Policy": "cross-origin"
-  }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "redirect": "https://github.com/chiyoi/games",
+      "statusCode": 302
+    }
+  ]
 }
